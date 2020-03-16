@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "dadaassign",
+      "public": "dist/dadaassign",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}
