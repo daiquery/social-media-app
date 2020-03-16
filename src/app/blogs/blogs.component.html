@@ -1,0 +1,8 @@
+<ul>
+    <li class="blog" *ngFor="let blog of blogs">
+     <h3>{{blog.creator}}</h3>
+     <p>{{blog.content}}</p>   
+    </li>
+</ul>
+
+<button (click)="goBack()">go back</button> 
