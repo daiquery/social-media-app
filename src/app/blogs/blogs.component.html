@@ -1,8 +1,10 @@
 <ul>
-    <li class="blog" *ngFor="let blog of blogs">
-     <h3>{{blog.creator}}</h3>
-     <p>{{blog.content}}</p>   
-    </li>
+  <li class="blog" *ngFor="let blog of blogs">
+    <small>{{blog.id}}</small>
+    <h3>{{blog.creator}}</h3>
+    <p>{{blog.content}}</p>
+    <button (click)="delete()"></button>
+  </li>
 </ul>
 
-<button (click)="goBack()">go back</button> 
+<button (click)="goBack()">go back</button>

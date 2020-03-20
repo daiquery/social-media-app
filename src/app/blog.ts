@@ -1,4 +1,4 @@
-export interface Blog {
+export class Blog {
     id: number;
     content: string;
     creator: string;

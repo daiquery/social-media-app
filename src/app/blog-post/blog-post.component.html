@@ -1,4 +1,9 @@
 <h2>Create New Blog</h2>
-<input type="text">
-<button>submit</button>
+<label for="">id</label>
+<input [(ngModel)]="id">
+<label for="">content</label>
+<input [(ngModel)]="content">
+<label for="">creator</label>
+<input [(ngModel)]="creator">
+<button (click)="newBlog()">submit</button>
 <button (click)="goBack()">go back</button>

@@ -1,7 +1,8 @@
 <h1>Login</h1>
 <div>
     <label for="username">Username</label>
-    <input type="text">
+    <input [(ngModel)]="user.username" type="text">
     <label for="password">Password</label>
-    <input type="password">
+    <input [(ngModel)]="user.password" type="password">
+    <button (click)="home()">Login</button>
 </div>
